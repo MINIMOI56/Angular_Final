@@ -1,8 +1,8 @@
 <br>
-<h1 style="text-align: center; font-weight: bold;">Vous pouvez rechercher des parties par rapport à leur gamemode et leur map</h1>
+<h1 style="text-align: center; font-weight: bold;" i18n>Vous pouvez rechercher des parties par rapport à leur gamemode et leur map</h1>
 
 <mat-form-field appearance="fill">
-    <mat-label>Gamemode:</mat-label>
+    <mat-label i18n>Gamemode:</mat-label>
     <mat-select [(value)]="chosenGamemode">
       <mat-option *ngFor="let gamemode of gamemodes" [value]="gamemode">
         {{gamemode}}
@@ -10,7 +10,7 @@
     </mat-select>
 </mat-form-field>
 <mat-form-field appearance="fill">
-    <mat-label>Map:</mat-label>
+    <mat-label i18n>Map:</mat-label>
     <mat-select [(value)]="chosenMap">
       <mat-option *ngFor="let map of maps" [value]="map">
         {{map}}
@@ -31,23 +31,23 @@
                 <h2>{{game.name}}</h2>
             </mat-panel-title>
             <mat-panel-description>
-                <p style="font-weight: bold;">Map:</p>
+                <p style="font-weight: bold;" i18n>Map:</p>
                 <p style="font-weight: 500;">{{game.chosen_map}}</p>
                 <p>|</p>
-                <p style="font-weight: bold;">Gamemode:</p>
+                <p style="font-weight: bold;" i18n>Gamemode:</p>
                 <p style="font-weight: 500;">{{game.chosen_game_mode}}</p>
             </mat-panel-description>
         </mat-expansion-panel-header>
-        <p>Nombre de temps passés: {{game.elapsed_time}}</p>
-        <p>Description de la partie: {{game.description}}</p>
-        <p>Nombre de joueurs: {{game.players.length}}</p>
-        <p>Nombre de round joués: {{game.number_of_round_played}}</p>
-        <p>Nombre de temps passés par round: {{game.time_per_round_played}}</p>
-        <p>Date de création: {{game.created_date}}</p>
-        <p>Est le jour: {{game.is_day}}</p>
-        <p>Temps passés dans la partie: {{game.elapsed_time}}</p>
-        <p>Nombre de joueur étant dans cette partie: {{game.players.length}}</p>
-        <p>Si la partie se rejoint: {{game.joinable}}</p>
-        <p>Si la partie est en cours: {{game.started}}</p>
+        <p i18n>Nombre de temps passés: {{game.elapsed_time}}</p>
+        <p i18n>Description de la partie: {{game.description}}</p>
+        <p i18n>Nombre de joueurs: {{game.players.length}}</p>
+        <p i18n>Nombre de round joués: {{game.number_of_round_played}}</p>
+        <p i18n>Nombre de temps passés par round: {{game.time_per_round_played}}</p>
+        <p i18n>Date de création: {{game.created_date}}</p>
+        <p i18n>Est le jour: {{game.is_day}}</p>
+        <p i18n>Temps passés dans la partie: {{game.elapsed_time}}</p>
+        <p i18n>Nombre de joueur étant dans cette partie: {{game.players.length}}</p>
+        <p i18n>Si la partie se rejoint: {{game.joinable}}</p>
+        <p i18n>Si la partie est en cours: {{game.started}}</p>
     </mat-expansion-panel>
 </mat-accordion>

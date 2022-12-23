@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2389864214122521130" datatype="html">
+        <source>Projet Web 3</source>
+        <target>Web 3 Project</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/entete/entete.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3476583629594890489" datatype="html">
+        <source>Accueil</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/entete/entete.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5801769828751672347" datatype="html">
+        <source>Ajout et modification</source>
+        <target>Add and update</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/entete/entete.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4382539556073223183" datatype="html">
+        <source>Filtre</source>
+        <target>Filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/entete/entete.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6774719854440890990" datatype="html">
+        <source>Statistique</source>
+        <target>Statistics</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/entete/entete.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3965827997617405205" datatype="html">
+        <source>Ici vous pouvez ajouter une partie</source>
+        <target>Here you can add a game</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5363451304863092478" datatype="html">
+        <source>Nom</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <target>Description</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826729242934654929" datatype="html">
+        <source>Nombre de rondes jouées</source>
+        <target>Number of rounds played</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2118374671529779764" datatype="html">
+        <source>Temps par ronde jouée</source>
+        <target>Time per round played</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6194098438193823312" datatype="html">
+        <source>Map choisie</source>
+        <target>Chosen map</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8633597806004843400" datatype="html">
+        <source>Mode de jeu choisi</source>
+        <target>Chosen game mode</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3998166139205227818" datatype="html">
+        <source>Temps écoulé</source>
+        <target>Time elapsed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3501322137060383477" datatype="html">
+        <source>Peut-on rejoindre la partie?</source>
+        <target>Can you join the game?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7505369637191493329" datatype="html">
+        <source>La partie est-elle commencée?</source>
+        <target>Has the game started?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70397346439942337" datatype="html">
+        <source>Ajouter</source>
+        <target>Add</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-de-partie/formulaire-de-partie.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3431344711030648533" datatype="html">
+        <source>Ici vous pouvez Modifier une partie</source>
+        <target>Here you can modify a game</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6372948150380143343" datatype="html">
+        <source>Id de la partie</source>
+        <target>Game id</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7029240660661954245" datatype="html">
+        <source>Temps moyen par ronde jouée</source>
+        <target>Average time per round played</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1785052497460968940" datatype="html">
+        <source>Modifier</source>
+        <target>Modify</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formulaire-update-de-partie/formulaire-update-de-partie.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7388264607389562310" datatype="html">
+        <source>Vous pouvez rechercher des parties par rapport à leur gamemode et leur map</source>
+        <target>You can search for games based on their gamemode and map</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9198475743645781547" datatype="html">
+        <source>Gamemode:</source>
+        <target>Gamemode:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5947091241433737383" datatype="html">
+        <source>Map:</source>
+        <target>Map:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4353384497039283923" datatype="html">
+        <source>Nombre de temps passés: <x id="INTERPOLATION" equiv-text="{{game.elapsed_time}}"/></source>
+        <target>Number of times passed: <x id="INTERPOLATION" equiv-text="{{game.elapsed_time}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="201165285237001143" datatype="html">
+        <source>Description de la partie: <x id="INTERPOLATION" equiv-text="{{game.description}}"/></source>
+        <target>Description of the game: <x id="INTERPOLATION" equiv-text="{{game.description}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3951251691600874113" datatype="html">
+        <source>Nombre de joueurs: <x id="INTERPOLATION" equiv-text="{{game.players.length}}"/></source>
+        <target>Number of players: <x id="INTERPOLATION" equiv-text="{{game.players.length}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5304836409870527835" datatype="html">
+        <source>Nombre de round joués: <x id="INTERPOLATION" equiv-text="{{game.number_of_round_played}}"/></source>
+        <target>Number of rounds played: <x id="INTERPOLATION" equiv-text="{{game.number_of_round_played}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7432658682564115082" datatype="html">
+        <source>Nombre de temps passés par round: <x id="INTERPOLATION" equiv-text="{{game.time_per_round_played}}"/></source>
+        <target>Number of times passed per round: <x id="INTERPOLATION" equiv-text="{{game.time_per_round_played}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="428199024818806889" datatype="html">
+        <source>Date de création: <x id="INTERPOLATION" equiv-text="{{game.created_date}}"/></source>
+        <target>Creation date: <x id="INTERPOLATION" equiv-text="{{game.created_date}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6328913396259493940" datatype="html">
+        <source>Est le jour: <x id="INTERPOLATION" equiv-text="{{game.is_day}}"/></source>
+        <target>Is it day: <x id="INTERPOLATION" equiv-text="{{game.is_day}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4400474025511464563" datatype="html">
+        <source>Temps passés dans la partie: <x id="INTERPOLATION" equiv-text="{{game.elapsed_time}}"/></source>
+        <target>Time spent in the game: <x id="INTERPOLATION" equiv-text="{{game.elapsed_time}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6844540299113796185" datatype="html">
+        <source>Nombre de joueur étant dans cette partie: <x id="INTERPOLATION" equiv-text="{{game.players.length}}"/></source>
+        <target>Number of players in this game: <x id="INTERPOLATION" equiv-text="{{game.players.length}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6852251058977132693" datatype="html">
+        <source>Si la partie se rejoint: <x id="INTERPOLATION" equiv-text="{{game.joinable}}"/></source>
+        <target>If the game is joinable: <x id="INTERPOLATION" equiv-text="{{game.joinable}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65903147950671455" datatype="html">
+        <source>Si la partie est en cours: <x id="INTERPOLATION" equiv-text="{{game.started}}"/></source>
+        <target>If the game is started: <x id="INTERPOLATION" equiv-text="{{game.started}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1422343496660191431" datatype="html">
+        <source>Temps minimum:</source>
+        <target>Minimum time:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7828119744949826342" datatype="html">
+        <source>Temps maximum:</source>
+        <target>Maximum time:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie-par-temps/liste-de-partie-par-temps.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2287054293790119801" datatype="html">
+        <source>Ici ce trouve la liste des parties</source>
+        <target>Here is the list of games</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-partie/liste-de-partie.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5988527754735881488" datatype="html">
+        <source>Nombre:</source>
+        <target>Number:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-statistique-gamemode/liste-de-statistique-gamemode.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/liste-de-statistique-map/liste-de-statistique-map.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
