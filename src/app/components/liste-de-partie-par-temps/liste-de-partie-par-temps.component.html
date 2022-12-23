@@ -2,25 +2,17 @@
 <h1 style="text-align: center; font-weight: bold;">Vous pouvez rechercher des parties par rapport à leur gamemode et leur map</h1>
 
 <mat-form-field appearance="fill">
-    <mat-label>Gamemode:</mat-label>
-    <mat-select [(value)]="chosenGamemode">
-      <mat-option *ngFor="let gamemode of gamemodes" [value]="gamemode">
-        {{gamemode}}
-      </mat-option>
-    </mat-select>
+    <mat-label>Temps minimum:</mat-label>
+    <input matInput type="number" [(ngModel)]="tempsMin">
 </mat-form-field>
 <mat-form-field appearance="fill">
-    <mat-label>Map:</mat-label>
-    <mat-select [(value)]="chosenMap">
-      <mat-option *ngFor="let map of maps" [value]="map">
-        {{map}}
-      </mat-option>
-    </mat-select>
+    <mat-label>Temps maximum:</mat-label>
+    <input matInput type="number" [(ngModel)]="tempsMax">
 </mat-form-field>
 
 <br>
 
-<button mat-raised-button (click)="getGamesByMapAndGamemode(chosenMap,chosenGamemode)" color="primary">Rechercher</button>
+<button mat-raised-button (click)="getGamesByElapsedTime(tempsMin,tempsMax)" color="primary">Rechercher</button>
 
 <br>
 

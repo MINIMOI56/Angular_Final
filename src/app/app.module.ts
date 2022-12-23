@@ -19,7 +19,11 @@ import { ListeDePartieComponent } from './components/liste-de-partie/liste-de-pa
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatExpansionModule} from '@angular/material/expansion';
-import { ListeDePartieMapGamemodeComponent } from './components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component'; 
+import { ListeDePartieMapGamemodeComponent } from './components/liste-de-partie-map-gamemode/liste-de-partie-map-gamemode.component';
+import { ListeDePartieParTempsComponent } from './components/liste-de-partie-par-temps/liste-de-partie-par-temps.component';
+import { PageFiltreComponent } from './components/page-filtre/page-filtre.component';
+import { PageStatistiqueComponent } from './components/page-statistique/page-statistique.component';
+import { ListeDeStatistiqueComponent } from './components/liste-de-statistique/liste-de-statistique.component'; 
 
 
 @NgModule({
@@ -28,7 +32,11 @@ import { ListeDePartieMapGamemodeComponent } from './components/liste-de-partie-
     EnteteComponent,
     PiedDePageComponent,
     ListeDePartieComponent,
-    ListeDePartieMapGamemodeComponent
+    ListeDePartieMapGamemodeComponent,
+    ListeDePartieParTempsComponent,
+    PageFiltreComponent,
+    PageStatistiqueComponent,
+    ListeDeStatistiqueComponent
   ],
   imports: [
     BrowserModule,
