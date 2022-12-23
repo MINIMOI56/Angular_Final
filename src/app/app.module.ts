@@ -25,6 +25,11 @@ import { PageFiltreComponent } from './components/page-filtre/page-filtre.compon
 import { PageStatistiqueComponent } from './components/page-statistique/page-statistique.component';
 import { ListeDeStatistiqueGamemodeComponent } from './components/liste-de-statistique-gamemode/liste-de-statistique-gamemode.component';
 import { ListeDeStatistiqueMapComponent } from './components/liste-de-statistique-map/liste-de-statistique-map.component';
+import { FormulaireDePartieComponent } from './components/formulaire-de-partie/formulaire-de-partie.component';
+import { PageAjoutEtModifComponent } from './components/page-ajout-et-modif/page-ajout-et-modif.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import {MatChipsModule} from '@angular/material/chips';
+import { FormulaireUpdateDePartieComponent } from './components/formulaire-update-de-partie/formulaire-update-de-partie.component';
 
 
 @NgModule({
@@ -38,7 +43,10 @@ import { ListeDeStatistiqueMapComponent } from './components/liste-de-statistiqu
     PageFiltreComponent,
     PageStatistiqueComponent,
     ListeDeStatistiqueGamemodeComponent,
-    ListeDeStatistiqueMapComponent
+    ListeDeStatistiqueMapComponent,
+    FormulaireDePartieComponent,
+    PageAjoutEtModifComponent,
+    FormulaireUpdateDePartieComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +64,9 @@ import { ListeDeStatistiqueMapComponent } from './components/liste-de-statistiqu
     MatToolbarModule,
     MatButtonToggleModule,
     MatButtonModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCheckboxModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

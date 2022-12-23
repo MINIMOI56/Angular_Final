@@ -1,0 +1,49 @@
+<br>
+<h1 style="text-align: center; font-weight: bold;">Ici vous pouvez Modifier une partie</h1>
+<br>
+
+<mat-form-field appearance="outline">
+    <mat-label>Id de la partie</mat-label>
+    <mat-select [(value)]="idGame" (valueChange)="getGame()">
+        <mat-option *ngFor="let game of games" [value]="game._id">
+            {{game._id}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+
+        <form (ngSubmit)="onSubmit()">
+            <mat-form-field appearance="outline">
+                <mat-label>Nom</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.name" name="name" type="text" />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Description</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.description" name="description" type="text" />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre de rondes jouées</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.number_of_round_played" name="number_of_round_played"
+                    type="[number]" />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Temps moyen par ronde jouée</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.time_per_round_played" name="time_per_round_played"
+                    type="[number]" />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Carte choisie</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.chosen_map" name="chosen_map" type="text" />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Mode de jeu choisi</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.chosen_game_mode" name="chosen_updatedgame_mode" type="text" />
+            </mat-form-field>
+            <mat-checkbox name="is_day" [(ngModel)]="updatedgame.is_day">Est-ce le jour?</mat-checkbox>
+            <mat-form-field appearance="outline">
+                <mat-label>Temps écoulé</mat-label>
+                <input matInput required [(ngModel)]="updatedgame.elapsed_time" name="elapsed_time" type="number" />
+            </mat-form-field>
+            <mat-checkbox name="joinable" [(ngModel)]="updatedgame.joinable">Peut-on rejoindre la partie?</mat-checkbox>
+            <mat-checkbox name="started" [(ngModel)]="updatedgame.started">La partie est-elle commencée?</mat-checkbox>
+            <button mat-raised-button color="primary" type="submit">Modifier</button>
+        </form>
