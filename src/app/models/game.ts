@@ -14,4 +14,5 @@ export interface Game {
     players: Player[];
     joinable: boolean;
     started: boolean;
+    count:string;
 }

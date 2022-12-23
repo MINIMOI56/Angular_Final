@@ -13,18 +13,18 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class StatsService {
-  gamesUrl: string = 'http://localhost:3000/games';
+  gamesUrl: string = 'http://localhost:3000/stats';
 
   constructor(private http: HttpClient) { }
 
   // GET le nombre de partie dans chaque mode de jeu
-  getGamesByGamemode(): Observable<Game[]> {
+  getNumberOfGamesByGamemode(): Observable<Game[]> {
     const url = `${this.gamesUrl}/gamemode`;
     return this.http.get<Game[]>(url);
   }
 
   // GET le nombre de partie dans chaque map
-  getGamesByMap(): Observable<Game[]> {
+  getNumberOfGamesByMap(): Observable<Game[]> {
     const url = `${this.gamesUrl}/map`;
     return this.http.get<Game[]>(url);
   }

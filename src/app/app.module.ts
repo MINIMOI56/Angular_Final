@@ -23,7 +23,8 @@ import { ListeDePartieMapGamemodeComponent } from './components/liste-de-partie-
 import { ListeDePartieParTempsComponent } from './components/liste-de-partie-par-temps/liste-de-partie-par-temps.component';
 import { PageFiltreComponent } from './components/page-filtre/page-filtre.component';
 import { PageStatistiqueComponent } from './components/page-statistique/page-statistique.component';
-import { ListeDeStatistiqueComponent } from './components/liste-de-statistique/liste-de-statistique.component'; 
+import { ListeDeStatistiqueGamemodeComponent } from './components/liste-de-statistique-gamemode/liste-de-statistique-gamemode.component';
+import { ListeDeStatistiqueMapComponent } from './components/liste-de-statistique-map/liste-de-statistique-map.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { ListeDeStatistiqueComponent } from './components/liste-de-statistique/l
     ListeDePartieParTempsComponent,
     PageFiltreComponent,
     PageStatistiqueComponent,
-    ListeDeStatistiqueComponent
+    ListeDeStatistiqueGamemodeComponent,
+    ListeDeStatistiqueMapComponent
   ],
   imports: [
     BrowserModule,

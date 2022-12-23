@@ -1,0 +1,14 @@
+<br>
+<div class="Container">
+  <mat-accordion>
+      <mat-expansion-panel *ngFor="let game of games">
+          <mat-expansion-panel-header>
+              <mat-panel-title>
+                  <h2>{{game._id}}</h2>
+              </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p style="font-weight: bold;">Nombre:</p>
+          <p style="font-weight: 500;">{{game.count}}</p>
+      </mat-expansion-panel>
+  </mat-accordion>
+</div>
